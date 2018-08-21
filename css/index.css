@@ -1,0 +1,131 @@
+a{
+	text-decoration: none;
+}
+.wrapper{
+	min-width:1348px;
+	overflow-x: auto;
+	overflow-y: hidden;
+	float:left;
+	height:4740px;
+	position:relative;
+}
+.brandsslider{
+	height:240px;
+	background-color:white;
+	width:1001px;
+	margin:30px auto;
+}
+.abc{
+	height:150px;
+	width:920px;
+	margin:15px auto;
+}
+.viewall{
+	display:inline-block;
+	font-size:15px;
+	margin-left:20px;
+	color:#FD4E0C;
+	cursor:pointer;
+}
+.viewall:hover{
+	color:black;
+}
+.brand-box{
+	float:left;
+	width:140px;
+	height:150px;
+	text-align:center;
+	font-size:14px;
+	font-weight:600;
+	cursor:pointer;
+	padding:1px;
+}
+.brand-box:hover{
+	border:1px solid #E0DDDD;
+	padding:0px;
+}
+.brand-box:hover img{
+	transform:scale(1.06);
+}
+.brandname:hover{
+	color:#FD4E0C;
+}
+.phonefinder{
+	width:1001px;
+	height:300px;
+	border:1px solid black;
+	position:relative;
+	background:url("brick_texture114.jpg");
+	border: 1px solid #E0DDDD;
+	box-shadow: 1px 1px 10px 2px #B4B4B4;
+	margin:auto;
+	margin-top:10px;
+}
+.round{
+	height:80px;
+	width:80px;
+	border-radius:50%;
+	position:absolute;
+	text-align:center;
+	color:white;
+	cursor:pointer;
+}
+.finderline{
+	height:1px;
+	width:300px;
+	border-top:1px solid #0B0B0B;
+	position:absolute;
+}
+.main{
+	height:800px;width:1001px;margin:20px auto;background:white;	
+}
+.main-title{
+	height:50px;border-bottom:1px solid #E0DDDD;
+}
+.main-title-text{
+	padding-top:14px;margin-left:20px;
+}
+.mobiles{
+	height:330px;width:200px;margin-top:20px;margin-left:20px;cursor:pointer;float:left;border:1px solid white;
+}
+.mobiles:hover img{
+	transform: scale(1.04);
+}
+.mobiles:hover{
+	border:1px solid #E0DDDD;
+}
+.back_to_top{
+	width:40px;
+	height:40px;
+	background-color:#EBE6E6;
+	position: fixed;
+	bottom: 10px;
+	right: 10px;
+	z-index: 99;
+	border:1px solid black;
+	border-radius: 15px;
+	text-align: center;
+	display: none;
+	cursor:pointer;
+}
+.mobilesimage{
+	height:220px;text-align:center;width:180px;margin:auto;
+}
+.mobilesname{
+	height:50px;text-align:center;border-bottom:1px solid #E0DDDD;width:180px;margin:auto;
+}
+.mobilesname-text{
+	margin-top:0px;
+}
+.mobilesname-text:hover{
+	color:#FD4E0C;
+}
+.mobilesprice{
+	height:30px;width:180px;margin:auto;
+}
+.mobilesprice-text{
+	color:6182A6;margin-top:10px;
+}
+.mobilesprice-available{
+	font-size:12px;margin-top:-10px;
+}
